@@ -19,18 +19,18 @@ Project ini dimulai menggunakan vue framework pada front-end, express pada back-
 ## App Functionality
 
 **1. Menampilkan 2 card atau button untuk menuju ke Personal Workout dan Heroes Workout.**
-![Image](./readme/homepage.PNG)
+![Image](./readme/homepage.png)
 
 - Personal Workout adalah list workout yang diperuntukkan untuk user personal.
 - Sedangkan Heroes Workout adalah rangkaian workout yang tersedia dengan nama-nama superhero (seperti Batman Workout yang berisikan: 20 squats, 40 punches, etc).
 
 **2. Saat user mengakses Personal Workout, user mendapatkan tampilan seperti berikut**
-![Image](./readme/personalpage.PNG)
+![Image](./readme/personalpage.png)
 
 - User mendapatkan daftar personal workout yang data JSON-nya diambil dari backend menggunakan fetch API dan checkbox pada setiap workout yang dapat di-checklist ketika workout sudah dikerjakan.
 
 **3. Ketika user mengakses Heroes Workout (Hero Workout), user mendapatkan tampilan seperti berikut**
-![Image](./readme/heroespage.PNG)
+![Image](./readme/heroespage.png)
 
 - Daftar workouts yang diatur (Heroes) dengan data berupa JSON yang diambil dari backend menggunakan fetch API.
 - Setiap workout berisikan gambar, judul workout, dan button "details".

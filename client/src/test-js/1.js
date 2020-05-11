@@ -1,11 +1,14 @@
-var arr = ["makan", "minum", "tidur", "kerja", "pergi", "pulang", "pusing", "rebahan"]
+const axios = require('axios')
 
-let search = "pu"
+var data
 
-var new_arr = arr.filter((element) => {
-    console.log("elemen ", element)
-    // console.log("s)
-    return element.includes(search)
-})
+const response = axios({
+    'url': "http://localhost:8081/heroesworkout",
+    'method': "get"
+}).then(function(result) {
+    // this.data = result.data
+    // console.log(result.data)
+    console.log(this)
+});
 
-console.log(new_arr)
+console.log(data)

@@ -24,5 +24,5 @@ app.get('/personals', (req, res) => {
 
 
 app.listen(8081, () => {
-    console.log("server runs in port 8181")
+    console.log("server runs in port 8081")
 })
